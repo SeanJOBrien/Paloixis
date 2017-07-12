@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570563411AD0337300E2E87F /* green2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5705633E1AD0337300E2E87F /* green2.png */; };
+		570563671AD04EAE00E2E87F /* Health_Bar_Green_Small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570563651AD04EAE00E2E87F /* Health_Bar_Green_Small.jpg */; };
+		570563681AD04EAE00E2E87F /* Health_Bar_Red_Small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 570563661AD04EAE00E2E87F /* Health_Bar_Red_Small.jpg */; };
+		5705636E1AD0952500E2E87F /* Fire_Shot_Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 570563691AD0952500E2E87F /* Fire_Shot_Bar.png */; };
+		5705636F1AD0952500E2E87F /* Fire_Shot_Empty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5705636A1AD0952500E2E87F /* Fire_Shot_Empty.jpg */; };
+		570563701AD0952500E2E87F /* Gear_Shift_Stick.png in Resources */ = {isa = PBXBuildFile; fileRef = 5705636B1AD0952500E2E87F /* Gear_Shift_Stick.png */; };
+		570563721AD0952500E2E87F /* Spit_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5705636D1AD0952500E2E87F /* Spit_Background.png */; };
+		572833D61AB06D950008B064 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572833D51AB06D950008B064 /* Game.swift */; };
+		576243281AD541DE00EBF2B8 /* Button_Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 576243261AD541DE00EBF2B8 /* Button_Down.png */; };
+		576243291AD541DE00EBF2B8 /* Button_Up.png in Resources */ = {isa = PBXBuildFile; fileRef = 576243271AD541DE00EBF2B8 /* Button_Up.png */; };
+		5768284219FD580A0067B8C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5768284119FD580A0067B8C0 /* AppDelegate.swift */; };
+		5768284419FD580B0067B8C0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5768284319FD580B0067B8C0 /* art.scnassets */; };
+		5768284619FD580B0067B8C0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5768284519FD580B0067B8C0 /* GameViewController.swift */; };
+		5768284919FD580B0067B8C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5768284719FD580B0067B8C0 /* Main.storyboard */; };
+		5768284B19FD580B0067B8C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5768284A19FD580B0067B8C0 /* Images.xcassets */; };
+		5768284E19FD580B0067B8C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5768284C19FD580B0067B8C0 /* LaunchScreen.xib */; };
+		5768285A19FD580B0067B8C0 /* PaloixisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5768285919FD580B0067B8C0 /* PaloixisTests.swift */; };
+		577159381AE1B78000F5C574 /* red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 577159371AE1B78000F5C574 /* red.jpg */; };
+		5772718F1AE1417B006D9255 /* Gear_Shift.png in Resources */ = {isa = PBXBuildFile; fileRef = 5772718E1AE1417B006D9255 /* Gear_Shift.png */; };
+		57A5CF701A9B3DC7006635FC /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A5CF6F1A9B3DC7006635FC /* Overlay.swift */; };
+		57D9289B1AB5E32500B3EF17 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D9289A1AB5E32500B3EF17 /* Ship.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5768285419FD580B0067B8C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5768283419FD580A0067B8C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5768283B19FD580A0067B8C0;
+			remoteInfo = Paloixis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5705633E1AD0337300E2E87F /* green2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green2.png; path = Textures/green2.png; sourceTree = "<group>"; };
+		570563651AD04EAE00E2E87F /* Health_Bar_Green_Small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Health_Bar_Green_Small.jpg; path = Textures/Health_Bar_Green_Small.jpg; sourceTree = "<group>"; };
+		570563661AD04EAE00E2E87F /* Health_Bar_Red_Small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Health_Bar_Red_Small.jpg; path = Textures/Health_Bar_Red_Small.jpg; sourceTree = "<group>"; };
+		570563691AD0952500E2E87F /* Fire_Shot_Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Fire_Shot_Bar.png; path = Textures/Fire_Shot_Bar.png; sourceTree = "<group>"; };
+		5705636A1AD0952500E2E87F /* Fire_Shot_Empty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fire_Shot_Empty.jpg; path = Textures/Fire_Shot_Empty.jpg; sourceTree = "<group>"; };
+		5705636B1AD0952500E2E87F /* Gear_Shift_Stick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Gear_Shift_Stick.png; path = Textures/Gear_Shift_Stick.png; sourceTree = "<group>"; };
+		5705636D1AD0952500E2E87F /* Spit_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Spit_Background.png; path = Textures/Spit_Background.png; sourceTree = "<group>"; };
+		572833D51AB06D950008B064 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		576243261AD541DE00EBF2B8 /* Button_Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button_Down.png; path = Textures/Button_Down.png; sourceTree = "<group>"; };
+		576243271AD541DE00EBF2B8 /* Button_Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button_Up.png; path = Textures/Button_Up.png; sourceTree = "<group>"; };
+		5768283C19FD580A0067B8C0 /* Paloixis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paloixis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5768284019FD580A0067B8C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5768284119FD580A0067B8C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5768284319FD580B0067B8C0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		5768284519FD580B0067B8C0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5768284819FD580B0067B8C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5768284A19FD580B0067B8C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5768284D19FD580B0067B8C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5768285319FD580B0067B8C0 /* PaloixisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaloixisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5768285819FD580B0067B8C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5768285919FD580B0067B8C0 /* PaloixisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaloixisTests.swift; sourceTree = "<group>"; };
+		577159371AE1B78000F5C574 /* red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = red.jpg; path = Textures/red.jpg; sourceTree = "<group>"; };
+		5772718E1AE1417B006D9255 /* Gear_Shift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Gear_Shift.png; path = Textures/Gear_Shift.png; sourceTree = "<group>"; };
+		57A5CF6F1A9B3DC7006635FC /* Overlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
+		57D9289A1AB5E32500B3EF17 /* Ship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5768283919FD580A0067B8C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5768285019FD580B0067B8C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5705633D1AD0335F00E2E87F /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				577159371AE1B78000F5C574 /* red.jpg */,
+				5772718E1AE1417B006D9255 /* Gear_Shift.png */,
+				576243261AD541DE00EBF2B8 /* Button_Down.png */,
+				576243271AD541DE00EBF2B8 /* Button_Up.png */,
+				570563691AD0952500E2E87F /* Fire_Shot_Bar.png */,
+				5705636A1AD0952500E2E87F /* Fire_Shot_Empty.jpg */,
+				5705636B1AD0952500E2E87F /* Gear_Shift_Stick.png */,
+				5705636D1AD0952500E2E87F /* Spit_Background.png */,
+				570563651AD04EAE00E2E87F /* Health_Bar_Green_Small.jpg */,
+				570563661AD04EAE00E2E87F /* Health_Bar_Red_Small.jpg */,
+				5705633E1AD0337300E2E87F /* green2.png */,
+			);
+			name = Textures;
+			sourceTree = "<group>";
+		};
+		5768283319FD580A0067B8C0 = {
+			isa = PBXGroup;
+			children = (
+				5768283E19FD580A0067B8C0 /* Paloixis */,
+				5768285619FD580B0067B8C0 /* PaloixisTests */,
+				5768283D19FD580A0067B8C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5768283D19FD580A0067B8C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5768283C19FD580A0067B8C0 /* Paloixis.app */,
+				5768285319FD580B0067B8C0 /* PaloixisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5768283E19FD580A0067B8C0 /* Paloixis */ = {
+			isa = PBXGroup;
+			children = (
+				5768284119FD580A0067B8C0 /* AppDelegate.swift */,
+				5768284519FD580B0067B8C0 /* GameViewController.swift */,
+				572833D51AB06D950008B064 /* Game.swift */,
+				57A5CF6F1A9B3DC7006635FC /* Overlay.swift */,
+				57D928981AB5E2C300B3EF17 /* GameObjects */,
+				57D928991AB5E2D500B3EF17 /* Assets */,
+				5768284719FD580B0067B8C0 /* Main.storyboard */,
+				5768284C19FD580B0067B8C0 /* LaunchScreen.xib */,
+				5768283F19FD580A0067B8C0 /* Supporting Files */,
+			);
+			path = Paloixis;
+			sourceTree = "<group>";
+		};
+		5768283F19FD580A0067B8C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5705633D1AD0335F00E2E87F /* Textures */,
+				5768284019FD580A0067B8C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5768285619FD580B0067B8C0 /* PaloixisTests */ = {
+			isa = PBXGroup;
+			children = (
+				5768285919FD580B0067B8C0 /* PaloixisTests.swift */,
+				5768285719FD580B0067B8C0 /* Supporting Files */,
+			);
+			path = PaloixisTests;
+			sourceTree = "<group>";
+		};
+		5768285719FD580B0067B8C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5768285819FD580B0067B8C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57D928981AB5E2C300B3EF17 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+				57D9289A1AB5E32500B3EF17 /* Ship.swift */,
+			);
+			name = GameObjects;
+			sourceTree = "<group>";
+		};
+		57D928991AB5E2D500B3EF17 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5768284A19FD580B0067B8C0 /* Images.xcassets */,
+				5768284319FD580B0067B8C0 /* art.scnassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5768283B19FD580A0067B8C0 /* Paloixis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5768285D19FD580B0067B8C0 /* Build configuration list for PBXNativeTarget "Paloixis" */;
+			buildPhases = (
+				5768283819FD580A0067B8C0 /* Sources */,
+				5768283919FD580A0067B8C0 /* Frameworks */,
+				5768283A19FD580A0067B8C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paloixis;
+			productName = Paloixis;
+			productReference = 5768283C19FD580A0067B8C0 /* Paloixis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5768285219FD580B0067B8C0 /* PaloixisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5768286019FD580B0067B8C0 /* Build configuration list for PBXNativeTarget "PaloixisTests" */;
+			buildPhases = (
+				5768284F19FD580B0067B8C0 /* Sources */,
+				5768285019FD580B0067B8C0 /* Frameworks */,
+				5768285119FD580B0067B8C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5768285519FD580B0067B8C0 /* PBXTargetDependency */,
+			);
+			name = PaloixisTests;
+			productName = PaloixisTests;
+			productReference = 5768285319FD580B0067B8C0 /* PaloixisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5768283419FD580A0067B8C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = WIT;
+				TargetAttributes = {
+					5768283B19FD580A0067B8C0 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					5768285219FD580B0067B8C0 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 5768283B19FD580A0067B8C0;
+					};
+				};
+			};
+			buildConfigurationList = 5768283719FD580A0067B8C0 /* Build configuration list for PBXProject "Paloixis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5768283319FD580A0067B8C0;
+			productRefGroup = 5768283D19FD580A0067B8C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5768283B19FD580A0067B8C0 /* Paloixis */,
+				5768285219FD580B0067B8C0 /* PaloixisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5768283A19FD580A0067B8C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570563701AD0952500E2E87F /* Gear_Shift_Stick.png in Resources */,
+				570563411AD0337300E2E87F /* green2.png in Resources */,
+				5768284E19FD580B0067B8C0 /* LaunchScreen.xib in Resources */,
+				577159381AE1B78000F5C574 /* red.jpg in Resources */,
+				5705636F1AD0952500E2E87F /* Fire_Shot_Empty.jpg in Resources */,
+				570563671AD04EAE00E2E87F /* Health_Bar_Green_Small.jpg in Resources */,
+				5768284B19FD580B0067B8C0 /* Images.xcassets in Resources */,
+				570563721AD0952500E2E87F /* Spit_Background.png in Resources */,
+				5705636E1AD0952500E2E87F /* Fire_Shot_Bar.png in Resources */,
+				570563681AD04EAE00E2E87F /* Health_Bar_Red_Small.jpg in Resources */,
+				5768284419FD580B0067B8C0 /* art.scnassets in Resources */,
+				576243281AD541DE00EBF2B8 /* Button_Down.png in Resources */,
+				5772718F1AE1417B006D9255 /* Gear_Shift.png in Resources */,
+				576243291AD541DE00EBF2B8 /* Button_Up.png in Resources */,
+				5768284919FD580B0067B8C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5768285119FD580B0067B8C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5768283819FD580A0067B8C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5768284619FD580B0067B8C0 /* GameViewController.swift in Sources */,
+				57A5CF701A9B3DC7006635FC /* Overlay.swift in Sources */,
+				5768284219FD580A0067B8C0 /* AppDelegate.swift in Sources */,
+				572833D61AB06D950008B064 /* Game.swift in Sources */,
+				57D9289B1AB5E32500B3EF17 /* Ship.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5768284F19FD580B0067B8C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5768285A19FD580B0067B8C0 /* PaloixisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5768285519FD580B0067B8C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5768283B19FD580A0067B8C0 /* Paloixis */;
+			targetProxy = 5768285419FD580B0067B8C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5768284719FD580B0067B8C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5768284819FD580B0067B8C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5768284C19FD580B0067B8C0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5768284D19FD580B0067B8C0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5768285B19FD580B0067B8C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5768285C19FD580B0067B8C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5768285E19FD580B0067B8C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Paloixis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5768285F19FD580B0067B8C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Paloixis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5768286119FD580B0067B8C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaloixisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paloixis.app/Paloixis";
+			};
+			name = Debug;
+		};
+		5768286219FD580B0067B8C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaloixisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paloixis.app/Paloixis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5768283719FD580A0067B8C0 /* Build configuration list for PBXProject "Paloixis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5768285B19FD580B0067B8C0 /* Debug */,
+				5768285C19FD580B0067B8C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5768285D19FD580B0067B8C0 /* Build configuration list for PBXNativeTarget "Paloixis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5768285E19FD580B0067B8C0 /* Debug */,
+				5768285F19FD580B0067B8C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5768286019FD580B0067B8C0 /* Build configuration list for PBXNativeTarget "PaloixisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5768286119FD580B0067B8C0 /* Debug */,
+				5768286219FD580B0067B8C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5768283419FD580A0067B8C0 /* Project object */;
+}
